@@ -1,6 +1,6 @@
 import cv2 as cv
 image = cv.imread('who.jpg')
-cv.imshow("Original Image", image)
+cv.imshow("Original Image", image 
 
 gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 cv.imshow("Grayscale Image", gray)
